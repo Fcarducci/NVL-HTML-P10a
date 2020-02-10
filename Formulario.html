@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form method="POST" action="miservidor.php">
+        <div>
+            <label for="CP">Código postal</label>
+            <input id="CP" type="text">
+        </div>
+
+        <div>
+            <label for="Nivel de satisfacción del producto">Nivel de satisfacción del producto</label>
+            <select id="Nivel de satisfacción del producto">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="Email del usuario">Email del cliente</label>
+            <input id="Email del usuario" type="text">
+        </div>
+
+        <div>
+            <label for="Comentarios positivos">Comentarios positivos</label>
+            <textarea id="Comentarios positivos"></textarea>
+        </div>
+
+        <div>
+            <label for="Comentarios negativos">Comentarios negativos</label>
+            <textarea id="Comentarios negativos"></textarea>
+        </div>
+
+        <div>
+            <label for="Calidad de información">¿Cuál es la calidad de información sobre nuestros productos?</label>
+            <select id="Calidad de información">
+                <option value="Excelente">Excelente</option>
+                <option value="Bueno">Bueno</option>
+                <option value="Regular">Regular</option>
+                <option value="Pésimo">Pésimo</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="Comparación con otras marcas">Si piensa en productos o servicios parecidos, ¿cuál es su
+                calificación para nuestra marca?</label>
+
+            <input id="Comparación con otras marcas" type="radio" value="E">Excelente
+            <input id="Comparación con otras marcas" type="radio" value="B">Bueno
+            <input id="Comparación con otras marcas" type="radio" value="R">Regular
+            <input id="Comparación con otras marcas" type="radio" value="P">Pésimo
+        </div>
+    </form>
+
+</body>
+
+</html>
